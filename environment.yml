@@ -1,0 +1,16 @@
+name: aliasing-project
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - numpy=1.26.*
+  - scipy=1.13.*
+  - matplotlib=3.8.*
+  - plotly=5.22.*
+  - jupyterlab=4.2.*
+  - ipywidgets=8.1.*
+  - pysoundfile=0.12.*
+  - pip
+  - pip:
+      - kaleido==0.2.1

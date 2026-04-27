@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Project-specific
+*.aux
+*.log
+*.out
+*.synctex.gz
+report/*.aux
+report/*.log
+
+# Don't ignore the actual deliverables
+!report/report.pdf
+!widget/interactive.html
